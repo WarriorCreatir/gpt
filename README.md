@@ -30,7 +30,10 @@ Now you can make some changes in [src/bot.mjs](src/bot.mjs)
 [Documentation for TeleBot](https://github.com/mullwar/telebot)
 
 ### Template structure:
-
+api/
+├── openai.js
+├── telegram.js
+└── setWebhook.js
 - [api/telegram.mjs](api/telegram.mjs) — Endpoint function for WebHooks
 - [api/setWebhook.mjs](api/setWebhook.mjs) — Function for setting WebHook URL
 
