@@ -7,7 +7,24 @@ from aiogram.dispatcher import FSMContext
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 import json
+// telegram.js
+function handleTelegramRequest(request) {
+  // обработка входящего запроса от Telegram
+}
 
+module.exports = {
+  handleTelegramRequest
+};
+
+
+// setWebhook.js
+function setWebhook(url) {
+  // установка URL WebHook в вашем боте Telegram
+}
+
+module.exports = {
+  setWebhook
+};
 with open("config.json", "r") as f:
     config = json.load(f)
 
